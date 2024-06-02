@@ -1,8 +1,5 @@
 function dy = numDiff(y)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% dy - derivative
-% y  - input points
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Numerical differentiation of N uniformly spaced points.
 % writer: S. Sunil (sunil11@uwindsor.ca) 
 % last commit on 02 June 2024 by S. Sunil 
@@ -10,6 +7,9 @@ function dy = numDiff(y)
 % [1] Numerical Methods for Engineers Book
 % by Raymond P. Canale and Steven C. Chapra
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% dy - derivative
+% y  - input points
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 N  = length(y);
 dy = nan(size(y));
