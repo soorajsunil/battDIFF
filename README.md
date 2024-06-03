@@ -15,8 +15,8 @@ where:
 - `xn` is input query vector x points of length N
 - `xm` is the table vector of x points of length M
 - `ym` is the table vector of y points of length M
-- `dyNewton`  is the derivative based on the Newton method (piecewise constant) of length N
-- `dyLagrange` is the derivative based on the Lagrange interpolating polynomials method of length N
+- `dyNewton`  is the derivative of length N based on the Newton method (piecewise constant) 
+- `dyLagrange` is the derivative of length N based on the Lagrange interpolating polynomials method 
 
 ## Reference: 
 
