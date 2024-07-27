@@ -1,4 +1,5 @@
 # Numerical-Differentiation
+This repo contains two Matlab functions to compute the numerical differentiation of a vector.
 
 Numerical differentiation of N uniformly spaced points implemented based on high-accuracy numerical differentiation formulas from [1]. 
 >  `dy = numDiff(y)`
@@ -12,11 +13,11 @@ Numerical differentiation of unevenly spaced points (non-equispaced data) implem
 > `[dyNewton,dyLagrange] = numDiff2(xn,xm,ym)`
 > 
 where:
-- `xn` is input query vector x points of length N
-- `xm` is the table vector of x points of length M
-- `ym` is the table vector of y points of length M
-- `dyNewton`  is the derivative of length N based on the Newton method (piecewise constant) 
-- `dyLagrange` is the derivative of length N based on the Lagrange interpolating polynomials method 
+- `xn` is the query vector x of length N
+- `xm` is the breakpoint (or knot) vector x of length M
+- `ym` is the breakpoint (or knot) vector y of length M
+- `dyNewton` is the derivative vector of length N computed using the piecewise constant approximation method (Newton) 
+- `dyLagrange` is the derivative vector of length N computed using the Lagrange interpolating polynomials method
 
 ## Reference: 
 
