@@ -1,4 +1,4 @@
-# Numerical-Differentiation
+# Battery Differential Analysis
 This repo contains two Matlab functions to compute the numerical differentiation of a vector.
 
 Numerical differentiation of N uniformly spaced points implemented based on high-accuracy numerical differentiation formulas from [1]. 
